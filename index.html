@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Website</title>
+<title>My First Website</title>
 
 <style>
 body{
 background:black;
 color:lime;
-font-family:monospace;
+font-family:Arial;
 text-align:center;
 }
 
+.menu{
+background:#111;
+padding:15px;
+}
+
+.menu a{
+color:lime;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+.menu a:hover{
+color:white;
+}
+
 .box{
-margin-top:120px;
-}
-
-button{
-background:lime;
-color:black;
-border:none;
-padding:10px 20px;
-font-size:16px;
-cursor:pointer;
-}
-
-button:hover{
-background:white;
+border:2px solid lime;
+padding:20px;
+margin:40px;
 }
 </style>
 
@@ -33,15 +38,18 @@ background:white;
 
 <body>
 
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+<h1>Welcome Bro 😎</h1>
+
 <div class="box">
-
-<h1>Welcome to My Website</h1>
-
 <p>Hello bro 👋</p>
-<p>I am learning coding and ethical hacking.</p>
-
-<button>Start Learning</button>
-
+<p>This is my first website</p>
+<p>I will learn coding and ethical hacking</p>
 </div>
 
 </body>
